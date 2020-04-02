@@ -1,0 +1,10 @@
+create database practicak;
+use practicak;
+
+CREATE TABLE `productospv` (
+  `Id` int(10) NOT NULL PRIMARY KEY auto_increment,
+  `nombreProducto` varchar(30) NOT NULL,
+  `precioProducto` double,
+   `cantidadProducto` int,
+    `totalProducto` double
+) ENGINE=InnoDB;
